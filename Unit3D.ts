@@ -30,4 +30,4 @@ console.log("The tip amount (15%) is: $" + tipAmount);
 console.log("The total cost (including tax and tip) is: $" + totalCost);
 console.log("The total cost per person (" + numPeople + " people) is: $" + costPerPerson);
 
-console.log("Done.");
+console.log("\nDone.");

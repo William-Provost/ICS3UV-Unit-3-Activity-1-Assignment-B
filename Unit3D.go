@@ -35,5 +35,5 @@ func main() {
 	fmt.Println("The total cost (including tax and tip) is: $", totalCost)
 	fmt.Println("The total cost per person (", numPeople, " people) is: $", costPerPerson)
 
-	fmt.Println("Done.")
+	fmt.Println("\nDone.")
 }
