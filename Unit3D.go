@@ -8,7 +8,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// initialize constants
@@ -19,6 +21,7 @@ func main() {
 	// user-provided values
 	const mealCost float64 = 315.99
 	const numPeople float64 = 5
+
 
 	// PROCESS
 	// calculate tax, tip, total, and cost per person

@@ -17,10 +17,10 @@ const numPeople: number = 5;
 
 // PROCESS
 // calculate tax, tip, total, and cost per person
-let taxAmount: number = mealCost * HST_RATE;
-let tipAmount: number = mealCost * TIP_RATE;
-let totalCost: number = mealCost + taxAmount + tipAmount;
-let costPerPerson: number = totalCost / numPeople;
+const taxAmount: number = mealCost * HST_RATE;
+const tipAmount: number = mealCost * TIP_RATE;
+const totalCost: number = mealCost + taxAmount + tipAmount;
+const costPerPerson: number = totalCost / numPeople;
 
 // OUTPUT
 // display all calculated results
