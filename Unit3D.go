@@ -6,7 +6,9 @@
  * including tax and tip, and divides it equally among the number of people splitting the bill.
 */
 
+
 package main
+
 
 import "fmt"
 
