@@ -12,8 +12,8 @@ import "fmt"
 
 func main() {
 	// initialize constants
-	const HST_RATE float64 = 0.13
-	const TIP_RATE float64 = 0.15
+	const HSTRATE float64 = 0.13
+	const TIPRATE float64 = 0.15
 
 	// INPUT
 	// user-provided values
@@ -23,8 +23,8 @@ func main() {
 
 	// PROCESS
 	// calculate tax, tip, total, and cost per person
-	taxAmount := mealCost * HST_RATE
-	tipAmount := mealCost * TIP_RATE
+	taxAmount := mealCost * HSTRATE
+	tipAmount := mealCost * TIPRATE
 	totalCost := mealCost + taxAmount + tipAmount
 	costPerPerson := totalCost / numPeople
 
