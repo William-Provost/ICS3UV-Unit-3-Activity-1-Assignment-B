@@ -1,10 +1,10 @@
-/**
- * @author William Provost
- * @version 1.0.0
- * @date 2025-11-05
- * @fileoverview This program calculates the total cost of a meal at a restaurant,
- * including tax and tip, and divides it equally among the number of people splitting the bill.
-*/
+// Author: William Provost
+// Version: 1.0.0
+// Date: 2025-11-05
+//
+// This program calculates the total cost of a meal at a restaurant,
+// including tax and tip, and divides it equally among the number of
+// people splitting the bill.
 
 package main
 
