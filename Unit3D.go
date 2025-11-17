@@ -20,7 +20,6 @@ func main() {
 	const mealCost float64 = 315.99
 	const numPeople float64 = 5
 
-
 	// PROCESS
 	// calculate tax, tip, total, and cost per person
 	taxAmount := mealCost * HSTRATE
@@ -38,4 +37,3 @@ func main() {
 
 	fmt.Println("\nDone.")
 }
-
